@@ -1,0 +1,38 @@
+body {
+    background-image: url("background.jpg");
+}
+
+.container {
+    margin-top: 275px;
+    text-align: center;
+}
+
+.box {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100px;
+    display: inline-block;
+    border: 5px solid black;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto 15px;
+}
+
+.key {
+    margin-bottom: 0;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.description {
+    font-size: 1rem;
+    color: rgb(236, 183, 8);
+    text-align: center;
+}
+
+.pressed {
+    transform: scale(1.1);
+    border-color: rgb(236, 183, 8);
+}
